@@ -1,0 +1,37 @@
+{
+    "id": "shaolin-kongfu.app.sub",
+    "name": "CT boxjs订阅",
+    "author": "@shaolin-kongfu",
+    "icon": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+    "repo": "https://github.com/shaolin-kongfu/js_scripts",
+    "apps": [
+     
+        {
+      "id": "jsz",
+      "name": "jcqd",
+      "keys": 
+        ["jcuser1","jcpass1","jcuser2","jcpass2","jcuser3","jcpass3"],
+      "settings": [{
+                        "id": "jcstatus",
+                        "name": "当前账号",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
+                    }, {
+                        "id": "jccounts",
+                        "name": "账号个数",
+                        "val": "1",
+                        "type": "number",
+                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                    }],
+  
+      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jsz.js", 
+      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js", 
+      "icons": [ 
+        "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg",
+        "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/kongfu.jpg"
+      ]
+    }
+
+      ]
+}
